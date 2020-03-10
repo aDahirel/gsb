@@ -12,7 +12,3 @@ Différent tests de développement doivent être réalisés afin de tester l'acc
 * Installer un système de gestion de base de données comme [MySQL](https://www.mysql.com/fr/) et importer le fichier "gsb.sql" présent dans le dossier racine du projet.
 
 * Après avoir intégré gsb au répertoire contenant vos projets, l'url "localhost/gsbv6" devrait afficher le projet.
-
-## Description du projet
-
-![Image de la page de connexion](https://github.com/aDahirel/gsb/tree/master/images/page_de_connexion.png)
