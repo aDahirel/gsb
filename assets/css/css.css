@@ -1,0 +1,310 @@
+/**
+*
+* @author aDahirel
+*
+*/
+
+/**
+*
+* PARTIE COMMUNE
+*
+*/
+
+/** S'aplique sur tout la page html */
+html
+{
+  overflow-y : scroll;
+}
+
+/** S'applique sur tout **/
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/** Aplique un fond d'écran sur les différentes pages */
+body 
+{
+  background-color: #3498DB;
+}
+
+/** S'applique sur les liens **/
+a 
+{
+  text-decoration: none;
+  color: black;
+}
+
+/** Modifie la taille du conteneur du formulaire */
+.login 
+{
+  width: 550px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+/** Modifie le formulaire */
+.form 
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  min-height: 288px;
+  overflow: auto;
+}
+
+/** Modifie les titres */
+h2
+{
+  color: black;
+  margin-bottom: 45px;
+  border: 1px solid white;
+}
+
+.login h2
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/** Modifie les entrées de texte */
+.form input 
+{
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/** Modifie les boutons */
+.form button 
+{
+  text-transform: uppercase;
+  outline: 0;
+  background: #3498DB;
+  width: 100%;
+  border: solid white 1px;
+  padding: 15px;
+  margin: 0 0 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+input[type="button"]
+{
+  text-transform: uppercase;
+  outline: 0;
+  background: #3498DB;
+  width: 100%;
+  border: solid white 1px;
+  padding: 15px;
+  margin: 0 0 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/** Modifie les boutons au passage de la souris*/
+.bouton:hover
+{
+  background: white;
+  color: black;
+}
+
+.form button:hover,.form button:active,.form button:focus 
+{
+  background: white;
+  color: black;
+}
+
+/**
+*
+* PARTIE FORMULAIRE D'ACCUEIL
+*
+*/
+
+/**
+*
+* PARTIE CONSULTATION
+*
+*/
+
+/**
+* Tableau
+*/
+
+table
+{
+  background: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  width:100%
+}
+
+/** Crée des espacements dans le tableau */
+td
+{
+  padding: 10px;
+  border: solid grey 1px;
+}
+
+th{
+  padding: 10px;
+}
+
+/** S'applique sur les select **/
+select
+{
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  outline: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/** S'applique sur les passages de la souris sur les selects **/
+select:hover{
+  cursor: pointer;
+}
+
+nav ul{
+  text-align: center;
+  height: 40px;
+  background-color: #3498DB;
+  display: flex;
+  border-bottom: solid #3498DB;
+}
+
+nav ul li{
+  display: inline;
+  list-style: none;
+  margin: auto;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+  padding: 10px 50px; 
+  background-color: #3498DB;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover{
+  background-color: #eee;
+  color: black;
+}
+
+#menu li a {
+ display:block;
+ }
+
+#menu ul li ul {
+ display:none;
+ }
+
+#menu ul li:hover ul {
+ display:block;
+ }
+#menu li:hover ul li {
+ float:none;
+ }
+
+#menu li ul {
+ position:absolute;
+ }
+
+header{
+  background-color: #3498DB;
+  color: #eee;
+  text-align: center;
+  padding: 15px;
+}
+
+h1{
+  color: black;
+}
+
+/** Modifie la taille du conteneur du formulaire */
+.login1
+{
+  width: 90%;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+/** Modifie le formulaire */
+.form1
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: auto;
+  margin: 0 auto 100px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  min-height: 288px;
+  overflow: auto;
+}
+
+.login1 h2
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/** Modifie la taille du conteneur du formulaire */
+.login2
+{
+  width: 550px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+/** Modifie le formulaire */
+.form2
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: auto;
+  margin: 0 auto 100px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  min-height: 288px;
+  overflow: auto;
+}
+
+.login2 h2
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
